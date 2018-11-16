@@ -54,5 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'home#index'
-  get 'actors', to: 'actors#actors'
+  # get 'actors', to: 'actors#index'
+  resources :actors
 end
